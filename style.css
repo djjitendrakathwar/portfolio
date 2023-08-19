@@ -20,7 +20,7 @@ a {
   color: #000;
 }
 div.main_code {
-  background-image: url("https://devnamdev2003.github.io/img/bg.jpeg");
+  background-image: url("imagess.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -52,13 +52,13 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #aad3e5;
+  background: #5cb5f0;
   border-radius: 100rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #54b7e1;
+  background: #3cd5e0;
 }
 
 /* -------------------------------- */
@@ -109,22 +109,22 @@ body {
 
 .font-24px {
   font-size: 2.4rem;
-  color: black;
+  color: rgb(233, 10, 10);
 }
 
 .font-28px {
   font-size: 2.8rem;
-  color: black;
+  color: rgb(247, 63, 63);
 }
 
 .font-32px {
   font-size: 3.2rem;
-  color: black;
+  color: rgb(15, 1, 1);
 }
 
 .font-36px {
   font-size: 3.6rem;
-  color: black;
+  color: rgb(6, 4, 14);
 }
 
 a.link {
@@ -941,37 +941,7 @@ span.call {
   justify-content: center;
 }
 
-.skill .mongo {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 200, 255, 0.211) 0%,
-    rgba(0, 115, 255, 0.238) 100%
-  );
-  border-radius: 1em;
-  width: 64px;
-  height: 64px;
-}
 
-.skill .django {
-  position: relative;
-  left: 22px;
-  top: 10.4px;
-  border-width: 2.5px;
-  border-style: solid;
-  border-image: linear-gradient(to top, #0072ff, #00c6ff) 1;
-  background: linear-gradient(to top, #00c6ff 30%, #0072ff 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1em;
-  font-weight: 900;
-  width: 49px;
-  height: 49px;
-  margin: 0em 0em 3em 0em;
-  padding: 1.5em 0em;
-  text-align: center;
-  display: inline-block;
-  /* border: 1px solid #000; */
-}
 
 .skill span.name {
   /* border: 1px solid #000; */
@@ -987,7 +957,7 @@ span.call {
   padding: 0.5em 0em;
   border-radius: 1em;
   transition: left 0.5s, opacity 0.5s;
-  opacity: 0;
+  
   width: 95px;
   box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem white;
   position: relative;
